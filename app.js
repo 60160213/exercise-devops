@@ -16,7 +16,7 @@ function getItems() {
 }
 
 app.get('/items', (req,res) => {
-    res.json(getItem())
+    res.json(getItems())
 })
 
 module.exports = app 
