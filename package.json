@@ -1,0 +1,19 @@
+{
+  "name": "excercise-devops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha ./test/* --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "supertest": "^6.0.0"
+  }
+}
